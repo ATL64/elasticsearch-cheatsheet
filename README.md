@@ -1,2 +1,4 @@
 # elasticsearch-cheatsheet
-Useful commands to have at hand
+Useful commands and scripts to have at hand. 
+
+This is all based on elasticsearch v6.
