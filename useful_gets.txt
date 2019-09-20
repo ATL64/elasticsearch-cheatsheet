@@ -1,0 +1,24 @@
+# What indices are currently available, and their status:
+
+{protocol}://{host}:{port}/_cat/indices?v&
+
+# Snapshots available for the cluster
+
+{protocol}://{host}:{port}/_snapshot/_all
+
+# Stats on nodes:
+
+{protocol}://{host}:{port}/_nodes/stats/indices/search
+
+# Cluster health:
+
+{protocol}://{host}:{port}/_cluster/health?pretty=true
+
+# Check on your reindexing tasks:
+
+{protocol}://{host}:{port}/_tasks?detailed=true&actions=*reindex
+
+
+
+
+
